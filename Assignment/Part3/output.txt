@@ -1,0 +1,60 @@
+Script started on Sun 13 Nov 2016 11:14:47 AM EST
+mamin26@matrix:~/oop244/oop_ms3> runms
+Please enter the following informartion for Good:
+sku: 123<ENTER>
+name: abcd<ENTER>
+qty: 10<ENTER>
+qty Needed: 20<ENTER>
+is taxed? 1<ENTER>
+price 10.0<ENTER>
+Enter Good info: 
+sku: 123
+name (no spaces): abcd
+qty: 10
+qty Needed: 20
+is taxed? (1/0): 1
+price: 10.0
+Read into Cn...
+Copying Cn into Cpy...
+Storing in file from Cn...
+Loading from file into Ld...
+Printing Ld:
+123: abcd
+10<OnHand --- Needed>20
+Cost:11.30
+
+Printing Cn:
+123: abcd
+10<OnHand --- Needed>20
+Cost:11.30
+
+Printing Cpy, copy of Cn:
+123: abcd
+10<OnHand --- Needed>20
+Cost:11.30
+
+Assigning Gd to Ld...
+Printing Gd:
+123: abcd
+10<OnHand --- Needed>20
+Cost:11.30
+Testing operator==:
+op== is OK
+
+Testing operator+=  Gd+= 20...
+Printing Gd:
+123: abcd
+30<OnHand --- Needed>20
+Cost:11.30
+Setting Gd not to be taxed...
+Printing Gd:
+123: abcd
+30<OnHand --- Needed>20
+Cost:10.00
+operator+=(double, Good):
+300.00=300.00
+
+mamin26@matrix:~/oop244/oop_ms3> exit
+exit
+
+Script done on Sun 13 Nov 2016 11:15:16 AM EST
